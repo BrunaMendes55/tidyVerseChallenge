@@ -86,7 +86,7 @@ tilePlot_CompleteYears<-ggplot(data_onlyCompleteMonths, aes(x=factor(month,level
 tilePlot_CompleteYears
 
 
-# *********Plot, Top10 Games with the higher sum_peak *********
+# *********Begin -> Plot, Top10 Games with the higher sum_peak *********
 
 #create a dataframe with two columns (gamename, and peak sum)
 
@@ -131,3 +131,4 @@ graphic_top10_sum_peak
 
 ggsave(plot=graphic_top10_sum_peak, "2021.03.16-games_sum_peak.jpg",  dpi = 180, width = 8, height = 7)
 
+# *********End -> Plot, Top10 Games with the higher sum_peak *********
